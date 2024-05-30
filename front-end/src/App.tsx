@@ -4,6 +4,7 @@ import { Landing } from './components/Landing';
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { SignIn } from './components/SignIn';
+import { GoogleSignIn } from './components/GoogleSignIn';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -31,6 +32,10 @@ export default function App(){
 
     <div>
       <SignIn />
+    </div>
+
+    <div>
+      <GoogleSignIn />
     </div>
     </>
   )
